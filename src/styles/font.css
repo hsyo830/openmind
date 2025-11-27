@@ -1,0 +1,79 @@
+:root {
+  --font-family-base: 'Noto Sans KR', sans-serif;
+
+  /* Font Sizes */
+  --fs-h1: 32px;
+  --fs-h2: 28px;
+  --fs-h3: 24px;
+
+  --fs-body1: 18px;
+  --fs-body2: 16px;
+  --fs-body3: 14px;
+
+  --fs-caption1: 12px;
+
+  /* Font Weight */
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+}
+.h1 {
+  font-size: var(--fs-h1);
+  font-weight: var(--fw-bold);
+  font-family: var(--font-family-base);
+}
+
+.h2 {
+  font-size: var(--fs-h2);
+  font-weight: var(--fw-medium);
+  font-family: var(--font-family-base);
+}
+
+.h3 {
+  font-size: var(--fs-h3);
+  font-weight: var(--fw-medium);
+  font-family: var(--font-family-base);
+}
+.body1-regular {
+  font-size: var(--fs-body1);
+  font-weight: var(--fw-regular);
+}
+
+.body1-bold {
+  font-size: var(--fs-body1);
+  font-weight: var(--fw-bold);
+}
+
+.body2-regular {
+  font-size: var(--fs-body2);
+  font-weight: var(--fw-regular);
+}
+
+.body2-bold {
+  font-size: var(--fs-body2);
+  font-weight: var(--fw-bold);
+}
+
+.body3-regular {
+  font-size: var(--fs-body3);
+  font-weight: var(--fw-regular);
+}
+
+.body3-bold {
+  font-size: var(--fs-body3);
+  font-weight: var(--fw-bold);
+}
+.caption1-regular {
+  font-size: var(--fs-caption1);
+  font-weight: var(--fw-regular);
+}
+
+.caption1-medium {
+  font-size: var(--fs-caption1);
+  font-weight: var(--fw-medium);
+}
+
+.caption1-bold {
+  font-size: var(--fs-caption1);
+  font-weight: var(--fw-bold);
+}
