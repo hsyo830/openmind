@@ -1,5 +1,11 @@
+import Button from '../components/button/button';
+
 function Home() {
-  return <h1>Home</h1>;
+  return (
+    <>
+      <Button text={'질문 받기'} />
+    </>
+  );
 }
 
 export default Home;
